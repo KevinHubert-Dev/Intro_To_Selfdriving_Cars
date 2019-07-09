@@ -26,6 +26,30 @@ The main parts of the algorithm are the "sense"- and "move"-function:
 The juypter notebook and source code can be found in the folder called "Project_2 - Two dimensional histogram filter" 
  
 
+## Matrix class (python)
+Project 3 was about implementing a matrix-class using python. The class contains a matrix-class which can be used to do the following mathematical caluclations with the created matrix-objects:
+
+- dot product
+- determinant (for 1x1 and 2x2 matrices)
+- trace
+- inverse
+- transpose
+- add
+- substract
+- negate
+- multiply (with constant)
+- multiply with other matrix)
+
+Afterwards the matrix-class was used to implement the kalman-filter for movement predictions in 2D-world (array of arrays).
+
+The juypter notebooks and source code can be found in the folder called "Project_3 - Matrix class (python)"
+
+
+
+
+
+
+
 # About
 Made with 💗 & 💻 by Kevin Hubert
 
