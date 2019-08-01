@@ -45,6 +45,37 @@ Afterwards the matrix-class was used to implement the kalman-filter for movement
 The juypter notebooks and source code can be found in the folder called "Project_3 - Matrix class (python)"
 
 
+## Translate Python to C++
+After implementing the histogram-filter in project 2, this following project focus on implementing the same functionality in c++ instead of python.
+This was done to show the differences (mainly: code-complexity vs. run-time) of the two language. 
+
+Just by implemeting the same functionality to c++ a major run-time impact could be measured on the other hand the code is much more complexe.
+
+The source code can be found in the folder called "Project_4 - Translate Python to C++"
+
+The code uses c++11 functionality.
+
+The following commands can be used to run the code
+
+Run tests
+``` Shell
+g++ -std=c++11 -o test.exe tests.cpp
+./test.exe
+
+# Example output:
+# ! - normalize function worked correctly!
+# ! - blur function worked correctly!
+# ! - initialize_beliefs function worked correctly!
+# ! - move function worked correctly with zero blurring
+# ! - sense function worked correctly
+```
+
+Run simulate
+``` Shell
+g++ -std=c++11 simulate.cpp
+```
+
+> **Info from Udacity**: There's one last item to note here - if you try to run tests.cpp, it actually uses the Simulation class from this file, and so trying to run tests.cpp while the main() function within simulate.cpp is uncommented will result in an error! In order to do so, the first step is to uncomment all the lines at the bottom of the file (simulate.cpp) around the main() function.
 
 
 
