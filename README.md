@@ -77,6 +77,21 @@ g++ -std=c++11 simulate.cpp
 
 > **Info from Udacity**: There's one last item to note here - if you try to run tests.cpp, it actually uses the Simulation class from this file, and so trying to run tests.cpp while the main() function within simulate.cpp is uncommented will result in an error! In order to do so, the first step is to uncomment all the lines at the bottom of the file (simulate.cpp) around the main() function.
 
+## Implementing a Route planner
+Route planning is a big thing in navigation and navigation is essentially for self-driving cars. In the project of the course, i was challenged to implement different types of path-finding algorithms. There are multiple classes like
+- Depth-first
+- Breadth-first
+- Cheapest-first
+they have advantages and disadvantages.
+
+At the end of the lecture the project was to implement the so called "A*" (spoken: A-Star) algorithm which is a path-finding algorithm of the class "Cheapest-first" which ensures to find the lowest cost for the specific path, if a solution exists.
+
+The A* algorithm is a so called informed search algorithm because next to the known cost of a path it uses heuristics to estimate costs. The heuristics makes the A* algorithm more efficient compares to breadth-first algorithms.
+
+An implementation of the A* algorithm can be found by openening the project folder called "Project_5
+
+
+
 
 
 
