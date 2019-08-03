@@ -86,10 +86,48 @@ they have advantages and disadvantages.
 
 At the end of the lecture the project was to implement the so called "A*" (spoken: A-Star) algorithm which is a path-finding algorithm of the class "Cheapest-first" which ensures to find the lowest cost for the specific path, if a solution exists.
 
-The A* algorithm is a so called informed search algorithm because next to the known cost of a path it uses heuristics to estimate costs. The heuristics makes the A* algorithm more efficient compares to breadth-first algorithms.
+The A* algorithm is a so called informed search algorithm because next to the known cost of the path to the next node it uses heuristics to estimate the futhermore costs . The heuristics makes the A* algorithm more efficient compares to breadth-first algorithms.
 
-An implementation of the A* algorithm can be found by openening the project folder called "Project_5
+My implementation of the A* algorithm can be found by openening the project folder called "Project_5 - Implement Route Planner
 
+## Reconstructing Trajectories
+The information with can be measured with different sensor can be very rich of more complex informations, which can be calculated by the given informations
+Example:
+- Time and Acceleration give informations about a speed
+- Time and Speed can give informations of distance traveld
+- Distance traveled and speed can be backward caluclated to the elapsed time
+- and so on...
+
+As an example this project provided just four different types of measured values: time, displacement, yaw-rate and acceleration.
+Based on the given information it was my task to find out the line/curve traveled by the car in different situations (different datasets).
+
+This projects mainly contains trigonometry and derivatives.
+The given datasets and task including my solution (Reconstructing Trajectories.ipynb) can be found in the folder called "Project_6 - Reconstructing Trajectories"
+
+
+## Traffic Light Classifier
+At the end of the nanodegree there was a lecture about machine learning and computer vision. The task for this project was the following:
+> use your knowledge of computer vision techniques to build a classifier for images of traffic lights! You'll be given a dataset of traffic light images in which one of three lights is illuminated: red, yellow, or green.
+
+The project contains multiple steps to solve the problem
+
+1.) Loading and visualizing data
+
+2.) Preprocessing - standardize, even the input and the results
+
+3.) Feature extraction - get information of standardized images
+
+4.) Classification - Classify the input based on the feature extraction
+
+5.) Evaluate - Increase the accurarcy, analyse problems and find better fitting solutions
+
+To pass the project and finish the nanodegree, i had to have a accurancy >90% and my solution was not allowed to classify a red traffic light as a green one.
+
+Information: To reduce the size of the repository, i've decided to not upload all +1000 traffic-light picture from the course.
+
+Instead i've uploaded just a few.
+
+In the end my solution reached an accurany of ~97.0%
 
 
 
