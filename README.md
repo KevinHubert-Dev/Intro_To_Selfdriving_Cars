@@ -9,7 +9,7 @@ During the nanodegree there were multiple projects to plan, develop and publish 
 ## Joy ride
 The task of this project was implementing a simple time or location based algorithm in python, which let's a virutal car (simulated in Unity3D) park parallel.
 
-![Overview](/screenshots/car_parking_parallel.gif?raw=true)
+![Parallel_Parking_Project_GIF](/screenshots/car_parking_parallel.gif?raw=true)
 
 For this project i've used both the time-based value and available x/y coordinates. The project gave a first preview of the so called jupyter notebook and working enviroment.
 
@@ -84,6 +84,10 @@ Route planning is a big thing in navigation and navigation is essentially for se
 - Cheapest-first
 they have advantages and disadvantages.
 
+
+![Binary_Tree_Search-Breath-_Vs_Depth_First](screenshots/binary_tree_search.png?raw=true)
+Image source - http://mishadoff.com/blog/dfs-on-binary-tree-array/
+
 At the end of the lecture the project was to implement the so called "A*" (spoken: A-Star) algorithm which is a path-finding algorithm of the class "Cheapest-first" which ensures to find the lowest cost for the specific path, if a solution exists.
 
 The A* algorithm is a so called informed search algorithm because next to the known cost of the path to the next node it uses heuristics to estimate the futhermore costs . The heuristics makes the A* algorithm more efficient compares to breadth-first algorithms.
@@ -109,7 +113,7 @@ The given datasets and task including my solution (Reconstructing Trajectories.i
 At the end of the nanodegree there was a lecture about machine learning and computer vision. The task for this project was the following:
 > use your knowledge of computer vision techniques to build a classifier for images of traffic lights! You'll be given a dataset of traffic light images in which one of three lights is illuminated: red, yellow, or green.
 
-The project contains multiple steps to solve the problem
+The project contains multiple steps to solve the problem:
 
 1.) Loading and visualizing data
 
@@ -121,18 +125,31 @@ The project contains multiple steps to solve the problem
 
 5.) Evaluate - Increase the accurarcy, analyse problems and find better fitting solutions
 
-To pass the project and finish the nanodegree, i had to have a accurancy >90% and my solution was not allowed to classify a red traffic light as a green one.
-
-Information: To reduce the size of the repository, i've decided to not upload all +1000 traffic-light picture from the course.
-
-Instead i've uploaded just a few.
+To pass the project and finish the nanodegree, i had to have a accurancy >90% and the algorithm was not allowed to classify a red traffic light as a green one.
 
 In the end my solution reached an accurany of ~97.0%
+In the jupyter-notebook are some notes of mine about ideas how to improve the code to reach a higher accurancy. 
+
+Information: To reduce the size of the repository, i've decided to not upload all +1000 traffic-light picture from the course. Instead i've picked 3-5 from each traffic-light-classification-class (red, yellow, green) from both given datasets: training and test.
+
+All of the image have different sizes, ratio-aspect and a different quality (hue, startion and brightness)
+
+Here are some examples:
+
+![Traffic_Light_Example_Images](Project_7&#32;-&#32;Traffic-Light-Classifier/images/all_lights_small.png?raw=true)
 
 
 
+# Conclusion 
+
+I am really happy that i've successfully completed all projects in the given time and learned all the required skills to do so. Due to the reviews made by Udacity-Mentors i've got additional inspirations and feedback, what parts of my projects were good and where (and especially how) i could do better.
+
+I'm looking forward to enroll the next nanodegree "Become a Self-Driving Car Engineer", which is based on the "Intro to Self-Driving-Cars" nanodegree i've completed now.
+
+To get an insight into the world of self-driving-cars and their technological basics, I can recommend the Nanodegree to everyone.
 
 
+If you interested in more informations about the course or have any questions feel free the get in touch with me.
 
 # About
 Made with 💗 & 💻 by Kevin Hubert
